@@ -1,5 +1,5 @@
 'use strict';
-
+//Change theme and button text when button is pressed
 const switcher = document.querySelector('.btn');
 switcher.addEventListener('click', function() {
     document.body.classList.toggle('light-theme');
